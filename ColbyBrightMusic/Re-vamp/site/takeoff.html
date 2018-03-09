@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Colby Bright Music</title>
+<link href="css/main.css" type="text/css" rel="stylesheet" />
+<link href="css/admin.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="MediaPlayer/swfobject.js" ></script> 
+    <script type="text/javascript">        
+        $(function() {
+            $("#loading-overlay").hide();
+        });
+    </script>
+
+		<!-- Browser Icon -->
+	  <link rel="shortcut icon" href=".\favicon.ico">
+	   <!-- End browser Icon -->
+	   <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35808998-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+		</head>
+
+
+<body id="sector1">
+	<div id="loading-overlay">Loading...</div>
+	<a href="index.html">
+	<div id="logo">
+		<div class="c">COLBY BRIGHT MUSIC</div>
+	</div>
+	</a>
+	
+	<div id="nav">
+		<div id="break">
+			<img src="imgs/break.png">
+		</div>
+		<!-- Black Menu -->
+		<div id="menu_wrapper" class="black">
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="videos.html">Videos</a></li>
+				<li><a href="shows.html">Shows</a></li>
+				<li><a href="interview.html">Interviews</a></li>
+				<li><a href="store.html">Store</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="information">
+		<a href="http://www.mediafire.com/?4hcic1h5zoyaaqi" target="_blank" alt="Take Off Season Download">
+		<h2 id="takeoff">Takeoff Season</h2>
+		</a>
+		<div id="mediaplayer">
+			<div id="player">
+				<h1>No flash player!</h1>
+				<p>It looks like you don't have flash player installed. <a href="http://www.macromedia.com/go/getflashplayer" >Click here</a> to go to Macromedia download page.</p>
+			</div>
+
+			<!-- Script that embeds player. -->
+			<script language="javascript" type="text/javascript">
+			var so = new SWFObject("flashmp3player.swf", "player", "1000", "247", "9"); // Location of swf file. You can change player width and height here (using pixels or percents).
+			so.addParam("quality", "high");
+			so.addVariable("content_path","mp3"); // Location of a folder with mp3 files (relative to php script).
+			so.addVariable("color_path","default.xml"); // Location of xml file with color settings.
+			so.addVariable("script_path","flashmp3player.php"); // Location of php script.
+			so.write("player");
+			</script>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<h2 id="breakfooter">
+			Break
+		</h2>
+		<div id="social_media">
+			<a href="http://www.youtube.com/user/ColbyBrightMusic">
+				<h2 id="youtube">
+					Youtube
+				</h2>
+			</a>
+			
+			<a href="http://www.facebook.com/colbybrightent">
+				<h2 id="facebook">
+					FaceBook
+				</h2>
+			</a>
+			<a href="http://twitter.com/colbybright">
+				<h2 id="twitter">
+					Twitter
+				</h2>
+			</a>
+			<a href="http://soundcloud.com/colbybright">
+				<h2 id="soundcloud">
+					Soundcloud
+				</h2>
+			</a>
+		</div>
+		
+		
+	</div>
+		<div class="footer_text">
+			<p>&copy 2012 Colby Bright Music. All Rights Reserved</p>
+			<p>Parental Advisory/Explicit Content</p>
+		</div>
+</body>
+</html>

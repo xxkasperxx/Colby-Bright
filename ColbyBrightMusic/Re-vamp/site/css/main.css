@@ -1,0 +1,273 @@
+/* ----------------------------------------------------------  Page Defaults -------------------------------------------------------- */
+ * { margin: 0; padding: 0; }
+
+html {
+	font-size: 100%;
+
+}
+		
+body {
+	font-family:'sky', Helvetica, sans-serif;
+	font-size:8pt;
+	padding:20px;
+	background:#000;
+}
+/* ---------------------------------------------------------- Page Backgrounds -------------------------------------------------------- */
+#sector1 {
+	background:#000 url(../imgs/bg.png); /* Home */
+	background-repeat:repeat;
+	background-position:center; 
+	width:1200px;
+	height:1080px;
+	margin: auto;
+}
+  #loading-overlay {
+	position: absolute;
+	z-index: 1000;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: #003366;
+	color: white;
+	text-align: center;
+	font-family: 'buy' , Arial, Helvetica;
+}		
+/* ----------------------------------------------------------  Primary Layout -------------------------------------------------------- */
+
+
+
+
+
+@font-face {
+    font-family: 'sky';
+    src: url('../skyliner-webfont.eot');
+    src: url('../skyliner-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../skyliner-webfont.woff') format('woff'),
+         url('../skyliner-webfont.ttf') format('truetype'),
+         url('../skyliner-webfont.svg#skylinerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'buy';
+    src: url('../buy_more-webfont.eot');
+    src: url('../buy_more-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../buy_more-webfont.woff') format('woff'),
+         url('../buy_more-webfont.ttf') format('truetype'),
+         url('../buy_more-webfont.svg#buy_moreregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	
+
+
+}
+
+
+#logo {
+	color:#fff;
+	font-size:50pt;
+}
+.c {font-family: 'buy' , Arial, Helvetica;text-align:center;margin-top:50px;}
+a {text-decoration:none;}
+/* ---------------------------------------------------------- Content --------------------------------------------------------------- */
+/* ---------------------------------------------------------- Home Page ONLY -------------------------------------------------------- */
+
+#information{
+	width:700px;
+	font-size:16pt;
+	float:left;
+	margin-top:50px;
+}
+#colby{
+	text-indent:-9999px;
+	background-image: url(../imgs/takeoff-home.png);
+	width:450px;
+	height:582px;
+	float:left;
+	margin-top:-650px;
+	margin-left:750px;
+}
+#footer{float:left;margin-top:50px;margin-left:150px;}
+#breakfooter {
+	text-indent:-9999px;
+	background-image: url(../imgs/footbreak.png);
+	background-repeat:no-repeat;
+	background-position:center; 
+	width:955px;
+	height:100px;
+}
+#social_media{
+	width:400px;
+	margin:0px auto;
+}
+
+#youtube{
+	text-indent:-9999px;
+	background-image: url(../imgs/youtube.png);
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+#facebook{
+	text-indent:-9999px;
+	background-image: url(../imgs/facebook.png);
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+#twitter{
+	text-indent:-9999px;
+	background-image: url(../imgs/twitter.png);
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+#soundcloud{
+	text-indent:-9999px;
+	background-image: url(../imgs/soundcloud.png);
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+.footer_text{
+	float:left;
+	width:100%;
+	text-align:center;
+	font-size:14pt;
+	margin-top:20px;
+}
+
+table {
+font-size:14pt;
+color:white;
+text-align:center;
+}
+
+#buy form{padding-left:9%;padding-bottom:5%;}
+#buy table#sizes{margin-left:5.5%;}
+#buy p {margin-left:11.5%;}
+#example2 {margin-left:1%;}
+
+#buymusic  embed{padding-bottom:3%;}
+#buymusic img {padding-bottom:2%;padding-top:1%;}
+
+
+.web_button{padding:3px;}
+
+ul {list-style-type: none;}
+
+ .web_button {
+	display:block;
+	width:170px;
+	height:50px;
+	background:url(../imgs/store/buy.png) no-repeat 0 0;
+	/* Hide "Buy now" text by moving it beyond
+	*  the browser viewport */
+	text-indent:-9999px;
+	/* Because of outline:none, we must visually style 
+	 * :focus property for web accessibility */
+	outline:none;
+	
+	
+}
+a:hover.web_button, a:focus.web_button {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(../imgs/store/buy.png) no-repeat 0 -50px;
+}
+.column{ float:left; width:50%;color:white;}
+
+.images2 {padding-top:5%;}
+.images2  a {padding-left:10%;}
+
+#media {
+text-align:center;
+}
+/* ---------------------------------------------------------- Nav Bar -------------------------------------------------------------------*/
+ 
+
+			/* The CSS Code for the menu starts here */
+			#nav {margin-top:0px;}
+			#menu_wrapper {padding: 0 16px 0 0;float:left; margin-left:300px;margin-top:-120px;font-family: 'sky' , Arial, Helvetica;font-size:18pt;}
+			
+			#menu li {
+				float: left;
+				margin: 0;				
+			}
+			#menu li a {
+				text-decoration: none;
+				display: block;
+				padding: 0 20px;
+				line-height: 40px;
+				color:#7e7e7e;
+			}
+			#menu li a:hover, #menu li.active a {
+				border-bottom: 2px solid #005472;
+				color: #999;
+			}
+			#menu_wrapper ul {margin-left: 12px;}
+			
+			#break {float:left;margin-left:10px;}
+			
+			
+/* ----------------------------------- Take Off Season ------------------------ */
+#takeoff{
+text-indent:-9999px;
+	background-image: url(../imgs/takeoff.png);
+	width:1000px;
+	height:420px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#mediaplayer{
+	margin-top:100px;
+}
+
+/* ------------------------------------ Music (Page) ------------------ */
+#music{
+	text-align:center;
+}
+
+/* ---------------------------------- Videos (Page) ----------------------- */
+#videos{
+	text-align:center;
+}
+/* -------------------------------- Shows (Page) --------------------------- */
+#shows{
+	text-align:center;
+	border:1px solid black;
+}
+/* --------------------------------- Interviews (Page) -------------------------*/
+#interviews{
+	text-align:center;
+}
+/* ------------------------------- Store (Page) ------------------------------- */
+#c1{
+width:600px;
+float:left
+}
+#c2{
+width:600px;
+margin-left:600px;
+}
+/* ------------------------------ Thanks (Page) ----------------------------------------*/
+#thanks{
+	text-align:center;
+	font-size:18pt;
+}
+
+/* --------------------------------- Contact ---------------------------- */
+.thanks2{
+	float:left;
+	margin-left:100px;
+}
+#maillist{
+	float:right;
+	margin-right:200px;
+}

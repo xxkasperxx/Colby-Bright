@@ -1,0 +1,31 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link href="css/main.css" type="text/css" rel="stylesheet" />
+<?php
+ session_start();
+ 
+if($_SESSION['username'])
+	echo "Welcome, ".$_SESSION['username']."!<br><a href='logout.php'>Logout</a>";
+else
+	die("<p style='color: white';>You muse be logged in! Click <a href='login.php'>here</a> to return to log-in page.</p>");
+?>
+
+</head>
+<body id="sector2">
+<div id="menu_wrapper" class="black">
+		<div class="left"></div>
+			<ul id="menu">
+				<li><a href="about.html">Home</a></li>
+				<li><a href="all_or_nothing.html">All or Nothing</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="videos.html">Videos</a></li>
+				<li><a href="shows.html">Shows</a></li>
+				<li><a href="interview.html">Interviews</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+</body>
+
+</html>

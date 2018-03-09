@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Colby Bright Music</title>
+<link href="css/main.css" type="text/css" rel="stylesheet" />
+<!--[if IE ]>
+<link href="css/ie.css" type="text/css" rel="stylesheet" />
+<![endif]-->
+		<!-- Browser Icon -->
+	  <link rel="shortcut icon" href=".\favicon.ico">
+	   <!-- End browser Icon -->
+	   <script language="javascript" type="text/javascript" src="swfobject.js" ></script> 
+	   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript">        
+        $(function() {
+            $("#loading-overlay").hide();
+        });
+    </script>
+		</head>
+
+
+
+	<body id="sector1">
+	<div id="loading-overlay">Loading...</div>
+<div id="logo">
+			<div class="c">C</div>
+			<div class="olby">olby</div>
+			<div class="b">B</div>
+			<div class="right">right</div>
+		</div>
+		
+		<!-- Black Menu -->
+		<div id="menu_wrapper" class="black">
+		<div class="left"></div>
+			<ul id="menu">
+				<li><a href="index.php">Home</a></li>
+				<li><a href="music.php">Music</a></li>
+				<li><a href="videos.php">Videos</a></li>
+				<li><a href="shows.php">Shows</a></li>
+				<li><a href="interview.php">Interviews</a></li>
+				<li><a href="store.html">Store</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
+	<div class="download2">
+		<a href="Songs/Takeoff Season" border="none"><h6>Download</h6></a>
+	</div>
+			<div class="all">
+				<img src="images/takeoff/front.jpg" width="55%" />
+				</div>
+				<div class="all2">
+				<img src="images/takeoff/back.jpg" width="55%" />
+			</div>
+			
+			<!-- Div that contains player. -->
+			<div id="media">
+<div id="player">
+<h1>No flash player!</h1>
+<p>It looks like you don't have flash player installed. <a href="http://www.macromedia.com/go/getflashplayer" >Click here</a> to go to Macromedia download page.</p>
+</div>
+<!-- Script that embeds player. -->
+<script language="javascript" type="text/javascript">
+var so = new SWFObject("flashmp3player.swf", "player", "50%", "50%", "10%"); // Location of swf file. You can change player width and height here (using pixels or percents).
+so.addParam("quality","high");
+so.addVariable("content_path","Songs/takeoff"); // Location of a folder with mp3 files (relative to php script).
+so.addVariable("color_path","default.xml"); // Location of xml file with color settings.
+so.addVariable("script_path","flashmp3player.php"); // Location of php script.
+so.write("player");
+</script> 
+			
+			<!--Powered by <a href="http://www.flashmp3player.org">Flash MP3 Player</a>-->		
+			</div>	
+			
+			<div id="youtube">
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/u8OxAE_0ngE" frameborder="0" allowfullscreen></iframe>			
+			</div>
+</body>
+</html>

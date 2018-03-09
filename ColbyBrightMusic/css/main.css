@@ -1,0 +1,360 @@
+/* ----------------------------------------------------------  Page Defaults -------------------------------------------------------- */
+ * { margin: 0; padding: 0; }
+
+html {
+		font-size: 100%;
+
+}
+		
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9pt;
+
+}
+/* ---------------------------------------------------------- Page Backgrounds -------------------------------------------------------- */
+#sector1 {
+		background:#000; /* Home */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+		}
+#sector2 {
+		background-color:black;
+		}
+
+		
+/* ----------------------------------------------------------  Primary Layout -------------------------------------------------------- */
+
+.container {
+
+}
+
+#wrap {width:100%; margin: 0 auto; }
+		
+p {
+	line-height:1.6em;
+	padding-left:10px;
+	
+}
+
+h2 + strong {
+	margin-top:10px;
+	display:block;
+}	
+	
+h5{
+font-weight:normal;
+font-size:100%;
+}
+		
+/* ---------------------------------------------------------- Content --------------------------------------------------------------- */
+/* ---------------------------------------------------------- Home Page ONLY -------------------------------------------------------- */
+
+
+.text, .news, .thanks{
+	 /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=80);
+
+  /* Netscape */
+  -moz-opacity: 0.8;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.8;
+
+  /* Good browsers */
+  opacity: 0.8;
+	padding:10px;
+}
+
+.text {
+	position:absolute;
+	background:#000000 none repeat scroll 0 0;
+	border:3px solid #222222;
+	color:#FFFFFF;
+	width:50%;
+	margin-left:1%;
+	margin-top:1%;
+}
+
+.fb {
+	position:absolute;
+	margin-left:70%;
+	margin-top:5%;
+	
+	}
+	
+.img { border:4px solid #fff;}
+
+.flyer {
+float:left;
+margin-left:5%;
+}
+
+.videos {
+	text-align:center;
+	height:100%;
+}
+
+.news {
+	position:absolute;
+	background:#000000 none repeat scroll 0 0;
+	border:3px solid #222222;
+	color:#FFFFFF;
+	width:30%;
+	margin-left:56%;
+	margin-top:1%;
+	
+}
+
+.thanks {
+	background:#000000 none repeat scroll 0 0;
+	border:3px solid #222222;
+	color:#FFFFFF;
+	width:50%;
+	text-align:center;
+	margin: 0 auto;
+}
+.thanks2 {
+	background:#000000 none repeat scroll 0 0;
+	border:3px solid #222222;
+	color:#FFFFFF;
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.inter {color:#fff;text-align:center;}
+
+
+
+
+/* Heading Propeties */
+h2 {
+	border-bottom:dashed 1px #999;
+	font-family:monospace;
+	font-size:14pt;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	padding-top:0px;
+	margin-top:0px;
+}
+
+h3 {
+	border-top:dashed 1px #999;
+	border-bottom:dashed 1px #999;
+	font-family:monospace;
+	font-size:14pt;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	padding-top:0px;
+	margin-top:0px;
+}
+h3.forget {
+	border-top:dashed 1px #999;
+	border-bottom:dashed 1px #999;
+	font-family:monospace;
+	font-size:14pt;
+	font-weight:bold;
+	margin-bottom:3px;
+	padding-bottom:3px;
+	padding-top:5px;
+	margin-top:0px;
+	text-align:center;
+}
+
+h4 {
+	text-align:center;
+}
+h1
+{
+color:white;
+}
+h6 {
+color:white;
+font-size:20pt;
+}
+
+
+table {
+font-size:12pt;
+color:white;
+text-align:center;
+background:#000000 none repeat scroll 0 0;
+}
+table
+{
+	 /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=80);
+
+  /* Netscape */
+  -moz-opacity: 0.8;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.8;
+
+  /* Good browsers */
+  opacity: 0.8;
+}
+
+.youtube
+{
+text-align:center;
+}
+	
+
+.head {
+	border-bottom:dashed 1px #999;
+	font-family:monospace;
+	font-size:14pt;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-align:center;
+	margin-top:0px;
+}
+
+.download{
+float:right;
+margin-right:47%;
+margin-bottom:-3.7%;
+font-weight:bold;
+font-size:200%;
+color:#fff;
+}
+.download, a{ color: white; }
+
+.release{
+float:left;
+margin-top:-25%;
+margin-left:50%;
+font-size:150%;
+}
+
+.all{
+
+	width:50%;
+	margin-left: 20%;
+	margin-right: auto;
+	float:left;
+}
+.all2{
+
+	width:50%;
+	margin-left: -23%;
+	margin-right: auto;
+	float:left;
+}
+
+.download2{
+float:left;
+margin-left:45%;
+color:#fff;
+}
+
+
+#buy form{padding-left:9%;padding-bottom:5%;}
+#buy table#sizes{margin-left:5.5%;}
+#buy p {margin-left:11.5%;}
+#example2 {margin-left:1%;}
+
+#buymusic  embed{padding-bottom:3%;}
+#buymusic img {padding-bottom:2%;padding-top:1%;}
+
+
+.web_button{padding:3px;}
+
+ul {list-style-type: none;}
+
+ .web_button {
+	display:block;
+	width:170px;
+	height:50px;
+	background:url(../images/buy.png) no-repeat 0 0;
+	/* Hide "Buy now" text by moving it beyond
+	*  the browser viewport */
+	text-indent:-9999px;
+	/* Because of outline:none, we must visually style 
+	 * :focus property for web accessibility */
+	outline:none;
+	
+	
+}
+a:hover.web_button, a:focus.web_button {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(../images/buy.png) no-repeat 0 -50px;
+}
+.column{ float:left; width:50%;color:white;}
+
+.images2 {padding-top:5%;}
+.images2  a {padding-left:10%;}
+
+#media {
+text-align:center;
+}
+/* ---------------------------------------------------------- Nav Bar -------------------------------------------------------------------*/
+ 
+
+
+			body {
+				padding: 50px;
+			}
+			/* The CSS Code for the menu starts here */
+			#menu {
+				font-family: Arial, sans-serif;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin: 50px 0;
+				padding: 0;
+				list-style-type: none;
+				background-color: #eee;
+				font-size: 13px;
+				height: 40px;
+				border-top: 2px solid #eee;
+				border-bottom: 2px solid #ccc;
+				margin-top:0%;
+			}
+			#menu li {
+				float: left;
+				margin: 0;				
+			}
+			#menu li a {
+				text-decoration: none;
+				display: block;
+				padding: 0 20px;
+				line-height: 40px;
+				color: #666;
+			}
+			#menu li a:hover, #menu li.active a {
+				background-color: #f5f5f5;
+				border-bottom: 2px solid #DDD;
+				color: #999;
+			}
+			#menu_wrapper ul {margin-left: 12px;}
+			#menu_wrapper {padding: 0 16px 0 0; background: url(images/grey.png) no-repeat right;}
+			#menu_wrapper div {float: left; height: 44px; width: 12px; background: url(images/grey.png) no-repeat left;}
+			
+			/* Black Menu */
+			#menu_wrapper.black ul {
+				border-top: 2px solid #333;
+				border-bottom: 2px solid #000;
+				background: #333;}
+			#menu_wrapper.black a {color: #CCC;}
+			#menu_wrapper.black li a:hover, #menu_wrapper.black li.active a {color: #999; background: #555; border-bottom: 2px solid #444;}
+			#menu_wrapper.black {background: url(images/black.png) no-repeat right;}
+			#menu_wrapper.black div {background: url(images/black.png) no-repeat left;}
+			
+
+		
